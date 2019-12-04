@@ -1,5 +1,6 @@
 node_modules/.bin/mime
 node_modules/.bin/mime.cmd
+node_modules/.bin/mime.ps1
 node_modules/accepts/HISTORY.md
 node_modules/accepts/index.js
 node_modules/accepts/LICENSE
