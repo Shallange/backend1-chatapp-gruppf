@@ -1,41 +1,19 @@
 {
-  
-    "name": "backend1-chatapp-gruppf",
-    "version": "1.0.0",
-    "private": true,
-    "description": "chat app for backend project",
-    "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D app.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node ./bin/www",
-      "devstart": "nodemon ./bin/www",
-      "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Shallange/backend1-chatapp-gruppf.git"
-    },
-    "author": "Ashur Tim Jimmy",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Shallange/backend1-chatapp-gruppf/issues"
-    },
-    "homepage": "https://github.com/Shallange/backend1-chatapp-gruppf#readme",
-    "dependencies": {
-      "cookie-parser": "~1.4.4",
-      "debug": "~2.6.9",
-      "ejs": "~3.0.1",
-      "express": "~4.17.1",
-      "http-errors": "~1.6.3",
-      "morgan": "~1.9.1",
-      "socket.io": "^2.3.0"
-    },
-    "devDependencies": {
-      "nodemon": "^1.18.10"
-    }
-  
+  "name": "chatapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
   }
-
- 
- 
-  
+}
