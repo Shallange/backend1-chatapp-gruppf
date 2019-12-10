@@ -1,8 +1,19 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+#icon {
+  width:60%;
+  height:180px;
+}
+.sidenav {
+  height: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-a {
-  color: #00B7FF;
+.main-head{
+  height: 150px;
+  background: #FFF;
+ 
 }
