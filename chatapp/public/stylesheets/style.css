@@ -1,3 +1,22 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:rgba(44, 66, 78, 0.445);
+}
+#navbarsmall{
+  
+  text-align: center;
+  font-size: 20px;
+
+}
+#loginLogo{
+  height: 200px;
+  width: 200px;
+
+
+}
+.main{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }

@@ -5,8 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-router.get('/chatt', function(req, res, next) {
-  res.render('chatt', { page:'chatt',title: 'Express' });
+router.get('/chat', function(req, res, next) {
+  res.render('chat', { page:'chat',title: 'Express' });
 });
 router.get('/register', function(req, res, next) {
   res.render('register', { page:'register',title: 'Express' });
