@@ -44,10 +44,7 @@ router.post('/register/new', function(req, res, next){
     });
   res.redirect('/');
 });
-/* GET login page. */
-router.get('/index', function(req, res, next) {
-  res.render('index');
-});
+
 
 
 module.exports = router;
